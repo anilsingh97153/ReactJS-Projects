@@ -2,7 +2,6 @@
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
-  
 }
 
 /* Styling for the board container */
@@ -36,6 +35,37 @@
   cursor: pointer;
   box-sizing: border-box; /* Ensures padding and border are included in the element's total width and height */
 }
+
+.status {
+  margin: auto;
+  text-align: center;
+}
+
+.game {
+  display:flex;
+  justify-items: center;
+  align-items: center;
+  gap:5%;
+}
+.game-info:hover {
+  cursor: pointer;
+}
+
+.game-info ol {
+  display: flex;
+  flex-direction: column;
+  gap:2px;
+}
+
+.game-info button {
+  width: 80px;
+  font-size: 8px;
+  border-radius: 0%;
+  padding: 5px;
+}
+
+
+
 
 
 
